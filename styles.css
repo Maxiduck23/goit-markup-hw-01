@@ -40,6 +40,9 @@ body {
 .menu-text:hover, .menu-text:focus {
     color: #404bbf;
 }
+.socials {
+    font-style: normal;
+}
 .socials-info {
     font-weight: 400;
     font-size: 16px;
@@ -107,14 +110,11 @@ body {
     text-align: center;
     color: #2e2f42;
     margin-bottom: 40px;
+    text-transform: capitalize;
 }
 .third-section {
     background-color: #F4F4FD;
 }
-.third-section .main-title {
-    text-transform: capitalize;
-}
-
 .team-wrap {
     background-color: #FFFFFF;
     padding: 0 0 32px 0;
