@@ -108,6 +108,13 @@ body {
     color: #2e2f42;
     margin-bottom: 40px;
 }
+.third-section {
+    background-color: #F4F4FD;
+}
+.third-section .main-title {
+    text-transform: capitalize;
+}
+
 .team-wrap {
     background-color: #FFFFFF;
     padding: 0 0 32px 0;
