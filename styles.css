@@ -1,9 +1,10 @@
-
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
+
+/* Стилі для логотипів у хедері та футері */
 .header-logo, .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -13,24 +14,16 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
 .darc {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #2e2f42;
 }
+
 .light {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
+    color: #f4f4fd;
 }
+
+/* Навігаційне меню */
 .menu-nav {
     display: flex;
     gap: 20px;
@@ -43,6 +36,10 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
+.menu-text:hover, .menu-text:focus {
+    color: #404bbf;
+}
 .socials-info {
     font-weight: 400;
     font-size: 16px;
@@ -50,6 +47,11 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.socials-info:hover, .socials-info:focus {
+    color: #404bbf;
+}
+
 .hero-wrap {
     background-color: #2e2f42;
     text-align: center;
@@ -154,6 +156,7 @@ body {
     text-align: center;
     padding: 40px 0;
 }
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
