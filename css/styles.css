@@ -4,7 +4,13 @@ body {
     background-color: #FFFFFF;
 }
 
-/* Стилі для логотипів у хедері та футері */
+
+a {
+    text-decoration: none;
+}
+ul {
+    text-decoration: none;
+}
 .header-logo, .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
