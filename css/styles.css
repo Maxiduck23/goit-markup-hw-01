@@ -75,14 +75,22 @@ ul {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-
+    border: none;
+    transition: background-color 0.3s ease;
 }
-.button-text:hover, .button-text:focus {
+
+.button-text:hover, .button-text:focus-visible {
     background-color: #404BBF;
 }
-.service-wrap {
-    margin-bottom: 20px;
+
+.button-text:focus {
+    outline: none;
 }
+
+.button-text:active {
+    background-color: #4D5AE5;
+}
+
 .service-title {
     font-weight: 500;
     font-size: 20px;
