@@ -45,15 +45,17 @@ header {
     color: #4d5ae5;
     margin-right: 76px;
 }
+.footer-logo-link{
+    display: inline-block;
+    margin-bottom: 16px; 
 
+}
 .darc {
     color: #2e2f42;
 }
 
 .light {
     color: #f4f4fd;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .menu {
@@ -264,6 +266,10 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.portfolio-section {
+    padding: 120px 0;
 }
 
 .main-title {
