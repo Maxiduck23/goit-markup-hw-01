@@ -28,9 +28,7 @@ header {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+    width: 1158px;
 }
 
 .header-nav {
@@ -38,6 +36,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    
 }
 
 .menu {
@@ -113,7 +112,8 @@ header {
 .socials-info:hover, .socials-info:focus {
     color: #404bbf;
 }
-
+.section { margin-top: 120;margin-bottom:120;
+}
 .hero-wrap {
     background-color: #2e2f42;
     text-align: center;
