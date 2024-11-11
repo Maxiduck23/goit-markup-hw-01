@@ -50,7 +50,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 40px;
+    margin-right: 76px
   }
   
   .darc {
@@ -62,7 +62,7 @@ ul {
   }
   .menu {
     display: flex;
-    gap: 16px;
+    gap: 40px
   }
   
   .menu-text {
@@ -72,7 +72,7 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
-    padding: 10px 0;
+    padding: 24px 0
   }
   
   .menu-text:hover,
@@ -88,7 +88,7 @@ ul {
   
   .socials-list {
     display: flex;
-    gap: 20px;
+    gap: 40px
   }
   
   .socials-info {
