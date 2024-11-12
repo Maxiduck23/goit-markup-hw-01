@@ -152,53 +152,49 @@ ul {
     background-color: #4D5AE5;
 }
 
-.service-section {
-    padding: 120px 0;
-}
-
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .service-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 0;
 }
 
 .service-wrap {
-    width: 264px;
-    padding: 0px 0px 32px 0px;
-    border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4); /* Updated for dynamic width */
+  padding: 0 0 32px 0;
+  border-radius: 0 0 4px 4px;
 }
 
 .service-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2e2f42;
-    margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .service-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
 
 .section {
-    padding: 120px 0;
- 
+  padding: 120px 0;
 }
+
 
 .main-title {
     font-family: "Roboto", sans-serif;
