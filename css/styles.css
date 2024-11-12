@@ -20,19 +20,18 @@ ul {
 
   .container {
     width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   
   /* Header */
   .header {
-    padding: 10px 0;
     border-bottom: 1px solid #e7e9fc;
   }
   
   .header-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
   }
   
@@ -42,37 +41,44 @@ ul {
     align-items: center;
   }
   
-  .header-logo, .footer-logo {
-    font-family: "Raleway", sans-serif;
+  .logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px
   }
   
-  .darc {
+  .header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+  }
+  
+  .header-logo .logo-part {
     color: #2e2f42;
   }
   
-  light{
-    color:#f4f4fd
+  .footer-logo .logo-part {
+    color: #f4f4fd;
   }
+  
+  
   .menu {
     display: flex;
+    align-items: center;
     gap: 40px
   }
   
   .menu-text {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-decoration: none;
-    padding: 24px 0
   }
   
   .menu-text:hover,
@@ -82,22 +88,23 @@ ul {
   
   /* Socials Section */
   .socials {
-    display: flex;
-    align-items: center;
+    font-style: normal;
+    margin-left: auto;
   }
   
   .socials-list {
     display: flex;
-    gap: 40px
+    align-items: center;
+    gap: 40px;
   }
   
   .socials-info {
-    font-weight: 400;
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-decoration: none;
   }
   
   .socials-info:hover,
@@ -166,14 +173,15 @@ ul {
 .service-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
   padding: 0;
+}
+
+.service-list li:not(:last-child) {
+  margin-right: 24px;
 }
 
 .service-wrap {
   width: calc((100% - 72px) / 4); /* Updated for dynamic width */
-  padding: 0 0 32px 0;
-  border-radius: 0 0 4px 4px;
 }
 
 .service-title {
