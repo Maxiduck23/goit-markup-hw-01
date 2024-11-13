@@ -181,7 +181,7 @@ header {
 .advantages-ul {
     display: flex;
     align-items: center;
-    gap: 24psx;
+    gap: 24px;
 }
 .advantages-list {
     width: calc((100% - 72px) / 4);
