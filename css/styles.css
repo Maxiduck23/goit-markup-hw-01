@@ -306,7 +306,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--brand-color-dark);
     padding-left: auto;
     padding-right: auto;
     margin-bottom: 72px;
@@ -374,7 +374,7 @@ img {
     font-weight: 500;
       line-height: 1.2;
      letter-spacing: 0.02em;
-     color: #2e2f42 ;
+     color:var(--brand-color-dark);
 
 }
 
@@ -469,9 +469,9 @@ img {
 
 .conten-portfolio {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid var(--line-color);
     border-top: none;
-    background-color: white;
+    background-color: var(--brand-color-white);
     position: relative;
 }
 
